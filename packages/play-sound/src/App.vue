@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import PlaySoundByButton from './components/PlaySoundByButton.vue';
+import PlaySoundByEvent from './components/PlaySoundByEvent.vue';
 </script>
 
 <template>
@@ -12,6 +14,8 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <PlaySoundByButton />
+  <PlaySoundByEvent />
 </template>
 
 <style scoped>
